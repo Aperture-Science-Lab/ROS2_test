@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = trio_robot_controller.trio_first_node:main"
+            "test_node = trio_robot_controller.trio_first_node:main",
+            "draw_circle = trio_robot_controller.draw_circle:main"
         ],
     },
 )
