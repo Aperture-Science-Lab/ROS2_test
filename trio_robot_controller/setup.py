@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "test_node = trio_robot_controller.trio_first_node:main",
-            "draw_circle = trio_robot_controller.draw_circle:main"
+            "draw_circle = trio_robot_controller.draw_circle:main",
+            "pose_subscriber = trio_robot_controller.pose_subscriber:main"
         ],
     },
 )
